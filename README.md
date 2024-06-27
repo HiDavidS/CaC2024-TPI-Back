@@ -1,4 +1,5 @@
 # CaC2024-TPI-Back
 Integrantes :  
-David Sempio
-Joel Alexander Trinidad
+David Sempio,
+Joel Alexander Trinidad,
+Adrian Gonzalo Fernandez.
