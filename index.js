@@ -6,6 +6,10 @@ const bodyParser = require('body-parser');
 const app = express();
 app.use(bodyParser.json());
 
+app.get("/", (req, resp) => {
+  res.send("CaC Deploy");
+});
+
 app.use('/api', productosRoutes);
 
 const PORT = process.env.PORT || 3000;
