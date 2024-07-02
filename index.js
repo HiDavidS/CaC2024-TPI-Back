@@ -6,7 +6,7 @@ const bodyParser = require('body-parser');
 const app = express();
 app.use(bodyParser.json());
 
-app.get("/", (req, resp) => {
+app.get("/", (req, res) => {
   res.send("CaC Deploy");
 });
 
