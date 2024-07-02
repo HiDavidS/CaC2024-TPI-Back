@@ -1,6 +1,6 @@
 // src/app.js
 const express = require('express');
-const productosRoutes = require('./routes/productos');
+const productosRoutes = require('./src/routes/productos');
 const bodyParser = require('body-parser');
 
 const app = express();
